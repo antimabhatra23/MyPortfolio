@@ -1,0 +1,52 @@
+.left {
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  cursor: pointer;
+}
+
+.left span {
+  color: tomato;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 0px;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+}
+
+.firstSection > div {
+  width: 30%;
+}
+
+.leftSection {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.tomato {
+  color: tomato;
+}
+
+#element {
+  color: tomato;
+}
+
+.rightSection img {
+  width: 90%;
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 1050px) {
+  .leftSection {
+    font-size: 18px;
+  }
+  .rightSection img {
+    width: 45vw;
+  }
+}
+
